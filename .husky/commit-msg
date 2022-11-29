@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# undefined
+# 提交之前先eslint
+npx eslint src/**
+# 提交时执行commitlint
+npx --no-install commitlint --edit $1
