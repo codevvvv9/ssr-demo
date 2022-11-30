@@ -332,3 +332,6 @@ npm install @types/react @types/react-dom --save-dev
 npm install react-router-dom --save
 
 ```
+
+1. 客户端路由改造
+2. 服务端路由改造
